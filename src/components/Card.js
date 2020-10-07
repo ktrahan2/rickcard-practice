@@ -4,7 +4,7 @@ export default function Card({character}) {
     
     return (
         <div>
-           <p>{character.name}</p> 
+           <h3>{character.name}</h3> 
            <img alt="" src={character.image} />
            <p>{character.gender}</p>
         </div>
